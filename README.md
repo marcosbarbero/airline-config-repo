@@ -1,2 +1,3 @@
-# airline-config-repo
-Repository to hold all configuration for airline projects
+Configuration repository
+---
+Repository to hold all configuration files for airline projects
