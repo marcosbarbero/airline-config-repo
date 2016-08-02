@@ -9,3 +9,6 @@ security:
 logging:
   level:
     com.netflix.discovery: 'OFF'    
+    
+management:
+  context-path: /manage    
