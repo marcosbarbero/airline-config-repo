@@ -16,18 +16,10 @@ management:
 
 eureka:
   client:
-    initial-instance-info-replication-interval-seconds: 3
-    instance-info-replication-interval-seconds: 5
-    register-with-eureka: true
-    fetch-registry: true
-    registry-fetch-interval-seconds: 2
-    eureka-connection-idle-timeout-seconds: 5
-    healthcheck:
-      enabled: true
+    healthcheck.enabled: true
     serviceUrl:
       defaultZone: http://localhost:8761
   instance:
-    lease-renewal-interval-in-seconds: 3
     lease-expiration-duration-In-seconds: 5
     
 spring:
