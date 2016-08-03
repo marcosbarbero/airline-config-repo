@@ -8,7 +8,8 @@ security:
     
 logging:
   level:
-    com.netflix.discovery: 'OFF'    
+    com.netflix.discovery: 'OFF'
+    org.springframework.cloud.config.client.ConfigServicePropertySourceLocator: 'OFF'
     
 management:
   context-path: /manage    
