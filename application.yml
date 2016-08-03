@@ -23,6 +23,7 @@ eureka:
     lease-expiration-duration-In-seconds: 5
     statusPageUrlPath: ${management.context-path}/info
     healthCheckUrlPath: ${management.context-path}/health
+    prefer-ip-address: true
     
 spring:
   application.index: ${spring.application.name}:${HOST:${random.value}}
